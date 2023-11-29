@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "A description of your project",
+  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel ./src --out-dir ./build",
@@ -11,12 +11,8 @@
     "lint": "eslint ."
   },
   "keywords": [],
-  "author": "Your Name",
+  "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dsal0506/basic-server-node.git"
-  },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.19.3",
