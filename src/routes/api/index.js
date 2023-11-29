@@ -1,5 +1,5 @@
 import { Router } from 'express'
-
+import basicAuth from 'express-basic-auth'
 import persons from './persons'
 import companies from './companies'
 import departments from './departments'
